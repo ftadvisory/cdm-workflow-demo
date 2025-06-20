@@ -5,7 +5,7 @@ This demo generates a valid CDM business event representing a trade by 'bank-a' 
 All the events are stored in a common directory (eventlogs) and once the trade is completed, the demo summarizes buy and sell total volume, average price and number of trades.
 
 To invoke the demo:
-> python trade_demo.py action where action is [B/S][amt]@[price]f[counterparty]'
+> python src/trade_demo.py action where action is [B/S][amt]@[price]f[counterparty]'
 
 - B[uy] or S[ell]
 - amt of trade. eg 100
@@ -13,8 +13,9 @@ To invoke the demo:
 - f[counterparty]: eg fbank-b
 
 for example: to buy 100 from bank-b at 102 
-> trade_demo.py B100@102fbank-b
-
+```sh 
+python src/trade_demo.py B100@102fbank-b
+```
 The demo uses the following packages from the FINOS Python CDM implementation: https://central.sonatype.com/artifact/org.finos.cdm/cdm-python/versions
 - rosetta_runtime-2.0.0-py3-none-any.whl
 - python_cdm-*.*.*-py3-none-any.whl
