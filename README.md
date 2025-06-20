@@ -13,7 +13,9 @@ To invoke the demo:
 - f[counterparty]: eg fbank-b
 
 for example: to buy 100 from bank-b at 102 
-> trade_demo.py B100@102fbank-b
+```sh 
+python src/trade_demo.py B100@102fbank-b
+```
 
 The demo uses the following packages from the FINOS Python CDM implementation: https://central.sonatype.com/artifact/org.finos.cdm/cdm-python/versions
 - rosetta_runtime-2.0.0-py3-none-any.whl

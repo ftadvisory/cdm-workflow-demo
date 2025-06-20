@@ -154,3 +154,5 @@ cython_debug/
 .pydevenv/
 .DS_Store
 eventlogs/
+cdm-python-5.25.0/python_cdm-5.25.0-py3-none-any.whl
+cdm-python-5.25.0/runtime/rosetta_runtime-2.1.0-py3-none-any.whl
