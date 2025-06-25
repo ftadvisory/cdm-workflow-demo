@@ -5,7 +5,7 @@ This demo generates a valid CDM business event representing a trade by 'bank-a' 
 All the events are stored in a common directory (eventlogs) and once the trade is completed, the demo summarizes buy and sell total volume, average price and number of trades.
 
 To invoke the demo:
-> python trade_demo.py action where action is [B/S][amt]@[price]f[counterparty]'
+> python src/trade_demo.py action where action is [B/S][amt]@[price]f[counterparty]'
 
 - B[uy] or S[ell]
 - amt of trade. eg 100
